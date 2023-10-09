@@ -15,6 +15,7 @@ export * from "./lib/misc/public";
 
  
 //added to satisfy angular >=9 requirements, see https://stackoverflow.com/questions/60121962/this-class-is-visible-to-consumers-via-somemodule-somecomponent-but-is-not-e
+export { SuiModal } from "./lib/modules/modal/components/modal"
 export * from "./lib/collections/message/components/message"
 export * from "./lib/collections/pagination/components/pagination"
 export * from "./lib/modules/accordion/components/accordion"
