@@ -2,6 +2,7 @@ import {
     Injectable, ApplicationRef, ComponentFactoryResolver, Injector, ComponentRef,
     ReflectiveInjector, Provider, Type, ViewContainerRef, TemplateRef
 } from "@angular/core";
+//TODO: solve using https://medium.com/@a.yurich.zuev/angular-how-staticinjector-replaces-reflectiveinjector-6f303d2798f6
 
 export interface IImplicitContext<T> {
     $implicit?:T;
