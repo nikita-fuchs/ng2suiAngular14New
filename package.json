@@ -1,10 +1,13 @@
 {
   "name": "ng2-semantic-ui",
+  "description": "the local one",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "build:broken": "ng-packagr -p ng-package.json",
     "build": "ng build",
+    "buildtar": "ng build && cd ./dist/ng2-semantic-ui && npm pack",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -36,7 +39,10 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
-    "ng-packagr": "^16.2.0",
-    "typescript": "~5.1.3"
+    "ng-packagr": "^16.2.3",
+    "typescript": "~5.1.3",
+    "date-fns": "^2.30.0",
+    "is-ua-webview": "^1.1.2",
+    "element-closest": "^3.0.2"
   }
 }

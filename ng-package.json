@@ -1,0 +1,6 @@
+{
+    "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
+    "lib": {
+      "entryFile": "./projects/ng2-semantic-ui/src/public-api.ts"
+    }
+  }
